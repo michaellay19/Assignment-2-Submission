@@ -1,0 +1,57 @@
+#card{
+    width: 600px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    box-shadow: 5px 0px 20px #888888;
+}
+
+#birthday-image{
+    width: 250px;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+    /* animation: rotate 5s infinite linear; */
+}
+
+/* @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
+
+#birthday-image:hover{
+    transform: scale(1.1);
+}
+
+h1{
+    font-size: 25px;
+    color:brown ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+
+p{  
+    text-align: justify;
+    color: #888888;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#right-side{
+    width: 50%;
+}
+
+#nama{
+    color: pink;
+}
+
+#right-side{
+    margin-left: 25px;
+    width: 50%;
+}
+
+
